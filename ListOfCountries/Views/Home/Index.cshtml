@@ -1,0 +1,106 @@
+﻿@model ReflectionIT.Mvc.Paging.PagingList<ListOfCountries.Models.Country>
+@using ReflectionIT.Mvc.Paging
+@addTagHelper *, ReflectionIT.Mvc.Paging
+
+
+@{
+    ViewBag.Title = "Countries List";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="table">
+    <h2>Countries List</h2>
+
+    <form method="get" class="form-inline">
+        <input name="filter" class="form-control" placeholder="Search"
+               value="@Model.RouteValue["Filter"]" />
+        <button type="submit" class="btn btn-info">
+            <span class="glyphicon glyphicon-search" aria-hidden="true"></span> Search
+        </button>
+    </form>
+
+    <nav aria-label="countries list">
+        @await this.Component.InvokeAsync("Pager", new { pagingList = this.Model })
+    </nav>
+    <table class="table table-striped">
+        <tr>
+            <th>
+                Name
+            </th>
+            <th>
+                Region
+            </th>
+            <th>
+                Subregion
+            </th>
+            <th></th>
+        </tr>
+
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    <button class="showCountry" onclick="showCountry('@item.Name')">@item.Name</button>
+                </td>
+                <td>
+                    @if (!String.IsNullOrEmpty(item.Region))
+                    {
+                        <button class="showRegion" onclick="showRegion('@item.Region')">@item.Region</button>
+                    }
+                </td>
+                <td>
+                    @if (!String.IsNullOrEmpty(item.Subregion))
+                    {
+                        <button class="showSubregion" onclick="showSubregion('@item.Subregion')">@item.Subregion</button>
+                    }
+                </td>
+            </tr>
+        }
+
+    </table>
+
+    <nav aria-label="Countries list">
+        <vc:pager paging-list="@Model" />
+    </nav>
+</div>
+<div class="display">
+
+    <div id="countryView" class="inv">
+    </div>
+
+    <div id="regionView" class="inv">
+    </div>
+
+    <div id="subregionView" class="inv">
+    </div>
+</div>
+
+<script>
+
+function showCountry(country) {
+    var url = '@Url.Action("ShowCountry", "Home")';
+    $('#countryView').load(url, { country: country });
+
+    $("#countryView").show();
+    $("#regionView").hide();
+    $("#subregionView").hide();
+
+}
+
+function showRegion(region) {
+    var url = '@Url.Action("ShowRegion", "Home")';
+    $('#regionView').load(url, { region: region });
+
+    $("#regionView").show();
+    $("#subregionView").hide();
+    $("#countryView").hide();
+}
+
+function showSubregion(subregion) {
+    var url = '@Url.Action("ShowSubregion", "Home")';
+    $('#subregionView').load(url, { subregion: subregion });
+
+    $("#regionView").hide();
+    $("#subregionView").show();
+    $("#countryView").hide();
+}
+</script>

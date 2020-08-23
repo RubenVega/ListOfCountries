@@ -1,0 +1,121 @@
+{
+  "version": 2,
+  "dgSpecHash": "jDcyjqX8nooxNh5z9ldxX73pSIy9GJtVOu6/QKtOLQIrlTpyVgUAWy3LGBIe//lobPltW337rAWHbvQ+B8kfjA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\jaime\\source\\repos\\ListOfCountries\\ListOfCountries\\ListOfCountries.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\jaime\\.nuget\\packages\\bootstrap\\4.5.2\\bootstrap.4.5.2.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\jquery\\3.0.0\\jquery.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnet.mvc\\5.2.7\\microsoft.aspnet.mvc.5.2.7.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnet.razor\\3.2.7\\microsoft.aspnet.razor.3.2.7.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnet.webpages\\3.2.7\\microsoft.aspnet.webpages.3.2.7.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnetcore.authorization\\3.0.0\\microsoft.aspnetcore.authorization.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnetcore.components\\3.0.0\\microsoft.aspnetcore.components.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnetcore.components.analyzers\\3.0.0\\microsoft.aspnetcore.components.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnetcore.components.forms\\3.0.0\\microsoft.aspnetcore.components.forms.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnetcore.components.web\\3.0.0\\microsoft.aspnetcore.components.web.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnetcore.metadata\\3.0.0\\microsoft.aspnetcore.metadata.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\3.0.0\\microsoft.aspnetcore.mvc.razor.extensions.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\3.0.0\\microsoft.aspnetcore.mvc.razor.runtimecompilation.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\3.0.0\\microsoft.aspnetcore.razor.language.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.codeanalysis.analyzers\\2.9.3\\microsoft.codeanalysis.analyzers.2.9.3.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.codeanalysis.common\\3.3.0\\microsoft.codeanalysis.common.3.3.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.codeanalysis.csharp\\3.3.0\\microsoft.codeanalysis.csharp.3.3.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.codeanalysis.razor\\3.0.0\\microsoft.codeanalysis.razor.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.entityframeworkcore\\3.0.0\\microsoft.entityframeworkcore.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.entityframeworkcore.abstractions\\3.0.0\\microsoft.entityframeworkcore.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.entityframeworkcore.analyzers\\3.0.0\\microsoft.entityframeworkcore.analyzers.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.0.0\\microsoft.extensions.caching.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.0.0\\microsoft.extensions.caching.memory.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.configuration\\3.0.0\\microsoft.extensions.configuration.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.0\\microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.configuration.binder\\3.0.0\\microsoft.extensions.configuration.binder.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\3.0.0\\microsoft.extensions.dependencyinjection.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.0.0\\microsoft.extensions.dependencyinjection.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.dependencymodel\\3.0.0\\microsoft.extensions.dependencymodel.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.logging\\3.0.0\\microsoft.extensions.logging.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.0\\microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.options\\3.0.0\\microsoft.extensions.options.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.extensions.primitives\\3.0.0\\microsoft.extensions.primitives.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.jsinterop\\3.0.0\\microsoft.jsinterop.3.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.netcore.platforms\\2.1.2\\microsoft.netcore.platforms.2.1.2.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\microsoft.web.infrastructure\\1.0.0\\microsoft.web.infrastructure.1.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\pagedlist\\1.17.0\\pagedlist.1.17.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\pagedlist.mvc\\4.5.0\\pagedlist.mvc.4.5.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\popper.js\\1.16.1\\popper.js.1.16.1.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\reflectionit.mvc.paging\\4.0.0\\reflectionit.mvc.paging.4.0.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\restsharp\\106.11.4\\restsharp.106.11.4.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\system.collections.immutable\\1.6.0\\system.collections.immutable.1.6.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\system.componentmodel.annotations\\4.6.0\\system.componentmodel.annotations.4.6.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\system.diagnostics.diagnosticsource\\4.6.0\\system.diagnostics.diagnosticsource.4.6.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\system.memory\\4.5.3\\system.memory.4.5.3.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\system.reflection.metadata\\1.6.0\\system.reflection.metadata.1.6.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\system.runtime.compilerservices.unsafe\\4.5.2\\system.runtime.compilerservices.unsafe.4.5.2.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\system.text.encoding.codepages\\4.5.1\\system.text.encoding.codepages.4.5.1.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\system.text.json\\4.6.0\\system.text.json.4.6.0.nupkg.sha512",
+    "C:\\Users\\jaime\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.3\\system.threading.tasks.extensions.4.5.3.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Mvc 5.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Mvc",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.Razor 3.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.Razor",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.AspNet.WebPages 3.2.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.AspNet.WebPages",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'Microsoft.Web.Infrastructure 1.0.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "Microsoft.Web.Infrastructure",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PagedList 1.17.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "PagedList",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    },
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'PagedList.Mvc 4.5.0' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "PagedList.Mvc",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
+}

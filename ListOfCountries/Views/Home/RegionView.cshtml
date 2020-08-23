@@ -1,0 +1,36 @@
+﻿@model ListOfCountries.Models.Region
+
+@{
+    ViewBag.Title = "RegionView";
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Region</title>
+</head>
+<body>
+    <h2>
+        @Html.DisplayFor(model => model.Name)
+    </h2>
+    <div>
+        <h3> Population</h3>
+        @Html.DisplayFor(model => model.Population) K
+    </div>
+    <div>
+        <h3>Countries</h3>
+        @foreach (var country in Model.Countries)
+        {
+            <button class="showCountry" onclick="showCountry('@country')">@country</button>
+        }
+    </div>
+    <div>
+        <h3>Subregions</h3>
+        @foreach (var subregion in Model.Subregions)
+        {
+            <button class="showSubregion" onclick="showSubregion('@subregion')">@subregion</button>
+        }
+    </div>
+</body>
+</html>

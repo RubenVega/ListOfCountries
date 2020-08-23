@@ -1,0 +1,41 @@
+﻿@model ListOfCountries.Models.Country
+
+@{
+    ViewBag.Title = "CountryView";
+    Layout = null;
+}
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>Country</title>
+</head>
+<body>
+    <h2>
+        @Html.DisplayFor(model => model.Name)
+    </h2>
+    <div>
+        <h3>Capital City</h3>
+        @Html.DisplayFor(model => model.CapitalCity)
+    </div>
+    <div>
+        <h3>Population</h3>
+        @Html.DisplayFor(model => model.Population) K
+    </div>
+    <div>
+        <h3>Currencies</h3>
+        @string.Join(", ", Model.Currencies)
+    </div>
+    <div>
+        <h3>Languages</h3>
+        @string.Join(", ", Model.Languages)
+    </div>
+    <div>
+        <h3>Bordering Countries</h3>
+        @foreach (var country in Model.BorderingCountries)
+        {
+            <button class="showCountry" onclick="showCountry('@country')">@country</button>
+        }
+    </div>
+</body>
+</html>
